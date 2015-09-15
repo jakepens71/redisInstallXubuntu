@@ -26,4 +26,6 @@ echo "Setting Redis to start at boot"
 
 sudo update-rc.d redis_6379 defaults
 
+cd $HOME
+
 rm -rf redis-stable.tar.gz
